@@ -1,0 +1,13 @@
+.UsernameInput {
+    background-color: #2f2f2f;
+    color: #fff;
+    font-family: 'Pixelify Sans', sans-serif;
+    border-radius: 9px;
+}
+
+.ChangeUsername {
+    position: relative;
+    bottom: 22px;
+    left: 180px;
+    border-radius: 9px;
+}

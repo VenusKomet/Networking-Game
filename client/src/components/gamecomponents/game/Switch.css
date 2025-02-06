@@ -1,0 +1,429 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #bbb;
+  border-radius: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #2f2f2f;
+  border-radius: 9px;
+  box-shadow: inset 0 0 5px #2f2f2f;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #0f0f0f;
+}
+
+.comp-Switch-pic {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  left: 0%;
+  top: -20%;
+}
+
+.comp-Switch-pic-frame {
+  height: 50px;
+  width: 50px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-Switch-Username {
+  position: relative;
+  left: 75px;
+  top: -40px;
+}
+
+.game-Switch-Component {
+  position: relative;
+  left: 40px;
+  top: -20px;
+}
+
+.game-Switch-Team {
+  position: relative;
+  top: -40px;
+  left: -50px;
+  float: right;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.game-Switch-UserInterface {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.game-Switch-Aufgabe {
+  border: 1px solid #fff;
+  border-radius: 9px;
+  padding: 10px;
+  width: 30%;
+}
+
+.game-Switch-Formular-MACHeader-Container {
+  border: 1px solid #fff;
+  border-radius: 9px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.game-Switch-Aufgabe-MACHeader {
+  border: 1px solid #fff;
+  border-radius: 9px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.game-Switch-Aufgabe-IPHeader {
+  border: 1px solid #fff;
+  border-radius: 9px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.game-Switch-Formular {
+  border: 1px solid #fff;
+  border-radius: 9px;
+  padding: 10px;
+  width: 29.5%;
+}
+
+.game-Switch-Formular-MACHeader {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-Switch-Formular-IPHeader {
+  border: 1px solid #fff;
+  border-radius: 9px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.game-Switch-Formular-Inputs {
+  height: 370px;
+}
+
+.game-Switch-Formular-container {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.game-Switch-Formular form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.game-Switch-Formular input {
+  font-family: "Pixelify Sans", sans-serif;
+  background-color: #2f2f2f;
+  border-radius: 9px;
+  color: #fff;
+  width: 290px;
+}
+
+.game-Switch-dropdown {
+  background-color: #2f2f2f;
+  border-radius: 9px;
+  color: #fff;
+}
+
+.game-Switch-Formular-source {
+  display: flex;
+}
+
+.game-Switch-Formular-dest {
+  display: flex;
+}
+
+.game-Switch-confirm-formular {
+  float: right;
+  border-radius: 9px;
+  margin-right: 10px;
+}
+
+.game-Switch-Table-Container {
+  border: 1px solid #fff;
+  border-radius: 9px;
+  padding: 10px;
+  width: 30%;
+}
+
+.game-Switch-Table {
+  padding-top: 10px;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.game-Switch-Table-Head th {
+  padding: 8px;
+  text-align: left;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.game-Switch-Table-Body td {
+  padding: 8px;
+  text-align: center;
+  border-left: 1px solid #fff;
+}
+
+.game-Switch-info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.game-Switch-Realtime-Overview {
+  border: 1px solid #fff;
+  border-radius: 9px;
+  padding: 10px;
+  width: 63%;
+}
+
+.game-Switch-Team-Progress-1-description {
+  text-align: center;
+  font-weight: 600;
+}
+
+.game-Switch-Team-Progress-1-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.game-Switch-Team-Progress-1 {
+  border: 3px solid #fff;
+  border-radius: 9px;
+  overflow: hidden;
+  width: 100%;
+  height: 25px;
+  color: #fff;
+}
+
+.game-Switch-Team-Progress-1::-webkit-progress-value {
+  background-color: #1e90ff;
+  border-radius: 8px;
+}
+
+.game-Switch-Team-Progress-1-State {
+  position: relative;
+  left: 5px;
+}
+
+.game-Switch-Team-Progress-2-description {
+  text-align: center;
+  font-weight: 600;
+}
+
+.game-Switch-Team-Progress-2-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+
+.game-Switch-Team-Progress-2 {
+  border: 3px solid #fff;
+  border-radius: 9px;
+  overflow: hidden;
+  width: 100%;
+  height: 25px;
+}
+
+.game-Switch-Team-Progress-2::-webkit-progress-value {
+  background-color: #ff6347;
+  border-radius: 8px;
+}
+
+.game-Switch-Team-Progress-2-State {
+  position: relative;
+  top: -5px;
+  left: 5px;
+}
+
+.game-Switch-Scenes-RO {
+  display: flex;
+  justify-content: space-between;
+}
+
+.game-Switch-Scene-Team-1 {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #1e90ff;
+  border-radius: 9px;
+  height: 750px;
+  width: 49%;
+}
+
+.game-Switch-Scene-PC1 {
+  height: 64px;
+  position: relative;
+  top: 25%;
+  left: 25%;
+  text-align: center;
+}
+
+.game-Switch-Scene-PC2 {
+  height: 64px;
+  position: relative;
+  top: 75%;
+  left: 17%;
+  text-align: center;
+}
+
+.game-Switch-Scene-Switch1 {
+  height: 64px;
+  position: relative;
+  top: 50%;
+  left: 40%;
+  text-align: center;
+}
+
+.game-Switch-Scene-Router1 {
+  height: 64px;
+  position: relative;
+  left: 60%;
+  top: 50%;
+  text-align: center;
+}
+
+.game-Switch-Scene-Line-PC1-Switch1 {
+  border: 2px solid white;
+  border-radius: 9px;
+  width: 400px;
+  height: 0px;
+  position: relative;
+  top: 43%;
+  left: -2%;
+  transform: rotate(37deg);
+}
+
+.game-Switch-Scene-Line-PC2-Switch1 {
+  border: 2px solid white;
+  border-radius: 9px;
+  width: 400px;
+  height: 0px;
+  position: relative;
+  top: 68%;
+  left: -30%;
+  transform: rotate(-37deg);
+}
+
+.game-Switch-Scene-Line-Switch1-Router1 {
+  border: 2px solid white;
+  border-radius: 9px;
+  width: 200px;
+  height: 0px;
+  position: relative;
+  top: 55%;
+  left: -19%;
+}
+
+.game-Switch-Scene-Line-Router1-Router2 {
+  border: 2px solid #fff;
+  border-radius: 9px;
+  width: 2600%;
+  position: relative;
+  top: 55%;
+  left: -1300%;
+}
+
+.game-Switch-Scene-Team-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  border: 2px solid #ff6347;
+  border-radius: 9px;
+  width: 49%;
+  height: 750px;
+}
+
+.game-Switch-Scene-PC3 {
+  height: 64px;
+  position: relative;
+  top: 25%;
+  left: -25%;
+  text-align: center;
+}
+
+.game-Switch-Scene-PC4 {
+  height: 64px;
+  position: relative;
+  top: 75%;
+  left: -17%;
+  text-align: center;
+}
+
+.game-Switch-Scene-Switch2 {
+  height: 64px;
+  position: relative;
+  top: 50%;
+  left: -40%;
+  text-align: center;
+}
+
+.game-Switch-Scene-Router2 {
+  height: 64px;
+  position: relative;
+  left: -60%;
+  top: 50%;
+  text-align: center;
+}
+
+.game-Switch-Scene-Line-PC3-Switch2 {
+  border: 2px solid white;
+  border-radius: 9px;
+  width: 400px;
+  height: 0px;
+  position: relative;
+  top: 43%;
+  left: 2%;
+  transform: rotate(-37deg);
+}
+
+.game-Switch-Scene-Line-PC4-Switch2 {
+  border: 2px solid white;
+  border-radius: 9px;
+  width: 400px;
+  height: 0px;
+  position: relative;
+  top: 68%;
+  left: 30%;
+  transform: rotate(37deg);
+}
+
+.game-Switch-Scene-Line-Switch2-Router2 {
+  border: 2px solid white;
+  border-radius: 9px;
+  width: 200px;
+  height: 0px;
+  position: relative;
+  top: 55%;
+  left: 19%;
+}
+
+.game-Switch-Table-Ascii-container {
+  border: 1px solid #fff;
+  border-radius: 9px;
+  padding: 10px;
+  width: 30%;
+}
+
+.game-Switch-Table-Ascii-Table {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}

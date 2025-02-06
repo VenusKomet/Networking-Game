@@ -1,0 +1,38 @@
+.Dropdown{
+  position: relative;
+  top: 24px;
+  left: 20px;
+  margin-bottom: 30px;
+}
+
+.dropdown-toggle
+{
+  width: 200px;
+  border-radius: 9px;
+}
+
+.dropdown-list {
+  position: relative;
+  display: block;
+  top: 5px;
+}
+
+.dropdown-item {
+  position: relative;
+  left: 50px;
+  align-content: space-between;
+  margin: 2px;
+  text-decoration: none;
+  width: 100px;
+  border-radius: 9px;
+}
+
+.dropdown-item2 {
+  width: 100px;
+  display: block;
+  position: relative;
+  left: 75px;
+  border-radius: 9px;
+  align-content: space-between;
+  margin: 2px;
+}

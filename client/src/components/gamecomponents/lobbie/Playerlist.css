@@ -1,0 +1,20 @@
+.Playerlisttable {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  border-collapse: collapse;
+}
+
+.Playerlisthead {
+  border: 1px solid #fff;
+  background-color: hsl(184, 50%, 50%);
+  width: 200px;
+}
+
+.Playerlistdata {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #fff;
+  text-align: center;
+}

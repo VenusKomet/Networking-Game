@@ -1,0 +1,38 @@
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+li 
+{
+    align-content: space-between;
+    margin-right: 60px;
+}
+
+line
+{
+    width: 1px;
+}
+
+.title 
+{
+    font-size: 28px;
+}
+
+.Link 
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.Button1 
+{
+    position: relative;
+    top:30px;
+    margin-left: calc(100% - 50px);
+    border-radius: 9px;
+}  

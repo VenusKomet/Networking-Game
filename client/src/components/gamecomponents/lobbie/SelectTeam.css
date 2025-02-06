@@ -1,0 +1,39 @@
+.Teamdropdown {
+    position: relative;
+    top: 24px;
+    left: 25px;
+    margin-bottom: 30px;
+}
+
+.Teamdropdown-toggle {
+    width: 200px;
+    border-radius: 9px;
+}
+
+.Teamdropdown-list {
+    position: relative;
+    display: block;
+    top: 5px;
+}
+
+.Teamdropdown-item-1 {
+    color: #1e90ff;
+    position: relative;
+    left: 50px;
+    align-content: space-between;
+    margin: 2px;
+    text-decoration: none;
+    width: 100px;
+    border-radius: 9px;  
+}
+
+.Teamdropdown-item-2 {
+    color: #ff6347;
+    position: relative;
+    left: 50px;
+    align-content: space-between;
+    margin: 2px;
+    text-decoration: none;
+    width: 100px;
+    border-radius: 9px;  
+}
